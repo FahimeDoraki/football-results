@@ -1,0 +1,145 @@
+
+.detail_list{
+    margin-bottom: 2px;
+    padding-bottom: 5px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 2px solid #b2b2b2;
+
+}
+
+.detail_list:nth-last-of-type(odd){
+    background-color: #fafafa;
+}
+
+.startDate{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 2px;
+}
+.detail_matches{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.referees{
+    height: 40px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #706374;
+}
+
+
+.detail_matches .awayTeam{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.detail_matches .result_status{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.detail_matches .homeTeam{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.referees .referees_middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    
+    
+}
+.referees .referees_assistant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    
+}
+.referees .referees_fourth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+.title{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 5px;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    margin: 5px;
+    width: 20%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.logo img{
+    width: 35px;
+    height: 30px;
+}
+
+.logoo{
+    margin: 5px;
+    width: 20%;
+}
+.logoo img{
+    width: 35px;
+    height: 30px;
+}
+.result{
+    margin: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.status{
+    margin: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.referees span{
+    margin: 2px;
+    font-size: 12px;
+    font-weight: 700;
+}
+

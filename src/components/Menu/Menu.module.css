@@ -1,0 +1,17 @@
+.detail_menu{
+	font-size: 14px;
+	border: 3px solid #4f6f8d;
+	border-radius: 0.25px;
+	background-color: #415f7a;
+	color: #fff;
+	appearance: none;
+	padding: 9px 30px;
+}
+.detail_menu::-webkit-scrollbar{
+	width: 6px;
+	background-color: #4f6f8d;
+
+}
+.detail_menu::-webkit-scrollbar-thumb {
+    background-color: #385166;
+}
